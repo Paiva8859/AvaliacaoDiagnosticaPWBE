@@ -1,0 +1,15 @@
+.formContato {
+    display: none;
+}
+
+.formContato {
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagemCamp{
+    display: flex;
+    align-items: flex-start;
+}

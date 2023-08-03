@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>ADPWBE</title>
+    <link rel="stylesheet" href="headerFooter.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure class="logo-img-container">
+                <img src="" alt="Logo" class="logo-img">
+            </figure>
+
+            <div class="ham-btn">
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+                <span class="ham-btn-bar"></span>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-content">
+                <li>
+                    <a class="active" href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a class="block" href="produtos.html">PRODUTOS</a>
+                </li>
+                <li>
+                    <a class="block" href="faleConosco.html">FALE CONOSCO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form" id="formCadastro">
+        <form method="POST">
+            <h1 class="cad">Cadastre-se</h1>
+            <h1 class="log">Bem vindo(a) de volta</h1>
+            <fieldset>
+                <span class="avisoE">Insira um usuário válido (x@x)</span>
+                <div class="campoContainer">
+                    <label for="user">Usuário:</label>
+                    <input type="text" name="user" id="user" placeholder="Digite aqui...">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <span class="avisoS">Insira uma senha válida (mínimo 6 caracteres)</span>
+                <div class="campoContainer">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Digite aqui...">
+                </div>
+            </fieldset>
+
+            <fieldset class="submitCamp">
+                <input class="logar" type="submit" value="ACESSAR">
+                <span class="cadBtt">Já tem uma conta? faça <button class="facaLogin"
+                        type="button">Login</button></span>
+                <span class="logBtt">Novo usuário? faça seu <button class="facaCadastro"
+                        type="button">Cadastro</button></span>
+            </fieldset>
+        </form>
+    </section>
+</article>
+
+    <div class="footer">
+        <footer>
+            <span>GPaiva | ADPWBE</span>
+        </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
